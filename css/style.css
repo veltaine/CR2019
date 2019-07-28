@@ -21,6 +21,7 @@
 }
 
 /* Desktop Styles */
+/* Although having all 3 properties here isn't needed, will be left for a reference point on other projects for now */
 @media only screen and (min-width: 961px) {
   body {
       background: linear-gradient(to left, #ff9900 10%, #ffcc00 66%);
@@ -44,13 +45,40 @@
 
 }
 
-.img img-fluid.rounded {
-  padding-top: 10px;
-}
-.carousel-slide {
-  padding-top: 200px;
-}
 
+/* carousel elements */
+.carousel-slide {
+  padding-top: 100px;
+}
+.d-block {
+  height: 800px;
+  width: 400px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  max-height: auto;
+  max-width: auto;
+  min-width: auto;
+  min-height: auto;
+}
+/* resizing for different screens */
+@media only screen and (min-width: 10px) and (max-width: 901px) {
+  .d-block {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    max-height: auto;
+    max-width: auto;
+    min-width: auto;
+    min-height: auto;
+  }
+}
 
 .body {
     font-family: 'Proza Libre', sans-serif;
