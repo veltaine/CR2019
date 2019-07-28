@@ -80,6 +80,9 @@
   }
 }
 
+.carousel-item h5{
+  font-family: 'Bangers', 'sans-serif';
+}
 .body {
     font-family: 'Proza Libre', sans-serif;
 }
