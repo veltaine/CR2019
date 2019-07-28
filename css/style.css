@@ -44,6 +44,13 @@
 
 }
 
+.img img-fluid.rounded {
+  padding-top: 10px;
+}
+.carousel-slide {
+  padding-top: 200px;
+}
+
 
 .body {
     font-family: 'Proza Libre', sans-serif;
@@ -81,6 +88,7 @@
   font-family: 'Hammersmith One', 'sans-serif';
   color: black;
   text-shadow: 4px 4px 4px #ffff66;
+  padding-top: 20px;
 
 }
 
@@ -109,7 +117,7 @@
 }
 
 .menuItem {
-        border: 1px dashed #091034;
+  border: 1px dashed #091034;
 	box-shadow: 0 0 0 3px #f7ebd4, 0 0 0 5px #fba90a, 0 0 0 10px #183bf0, 0 0 2px 10px #1430b8;
   margin-top: 20px;
   margin-bottom: 20px;
