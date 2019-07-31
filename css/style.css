@@ -25,6 +25,10 @@
       background: linear-gradient(to left, #ff9900 10%, #ffcc00 66%);
   }
 }
+.main-picture {
+  text-align: center;
+  margin-top: 150px;
+}
 
 .navbar {
 
@@ -58,12 +62,14 @@
   max-width: 800px;
   min-width: auto;
   min-height: auto;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
-.restoname {
-  font-size: 70px;
+.restoname
+.number {
+  font-size: 50px;
 }
+
 
 /* resizing for different screens, keeps the dimensions still intact */
 @media only screen and (min-width: 10px) and (max-width: 901px) {
@@ -79,7 +85,7 @@
     max-width: auto;
     min-width: auto;
     min-height: auto;
-    margin-top: 150px;
+    margin-top: 10px;
   }
 }
 .carousel-desc {

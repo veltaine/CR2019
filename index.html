@@ -32,17 +32,6 @@ function scrlsts() {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-
-
-<style>
-  /* Set the size of the div element that contains the map */
-#map {
- height: 400px;  /* The height is 400 pixels */
- width: 100%;  /* The width is the width of the web page */
-}
-</style>
-<!-- end of google map style code -->
-
 </head>
 
 <header>
@@ -51,7 +40,7 @@ function scrlsts() {
 
 <nav class="navbar navbar-expand-md bg-warning navbar-warning fixed-top">
   <a class="navbar-brand"><h2 class="restoname" style="text-align:center">China River</h2></a>
-  <span class="navbar-text"><h2 style="text-align:center">Call today! <br>(978)921-1184</h2></span>
+  <span class="navbar-text"><h2 class="number" style="text-align:center">Call today! <br>(978)921-1184</h2></span>
 
   <button class="navbar-toggler btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> ↓ click here for quick navigation ↓
     <span class="navbar-toggler-icon"></span>
@@ -112,9 +101,16 @@ function scrlsts() {
         <div class="container">
           <div class="row">
             <div class="col-md-12">
+              <div class="col-md-12">
+                <div class="main-picture">
+                  <img class="img-fluid rounded" src="images/coveryellow.jpg" >
+                </div>
+              </div>
               <!-- Markup for Logo -->
               <div class="logo text-center">
                 <div class="top-picture">
+
+                  <div class="col-md-12">
                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -185,7 +181,9 @@ function scrlsts() {
         <span class="sr-only">Next</span>
       </a>
     </div>
+  </div>
     <!-- Carousel End -->
+
 
 
   <!-- To be shifted to the outer edges of the entire website, static image as the customer scrolls to allow them to reference the business information -->
@@ -195,7 +193,7 @@ function scrlsts() {
 
       <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-md-6">
 
           <div class="hours-title">
             <h2 class="menu-title" class="hours" style="text-align:center">Hours of Operation</h2>
@@ -213,7 +211,7 @@ function scrlsts() {
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="payment information">
             <h2></h2>
 
@@ -223,18 +221,7 @@ function scrlsts() {
             <p style="text-align:center"><b>Please inform us if anyone in your party has a food allergy, thank you!</b></p>
                         <p style="text-align:center"><span>Sorry, we do not accept checks.</span></p>
           </div>
-        </div>
-
-
-        <div class="col-md-4">
-          <div class="menu-overlay">
-
-            <h2><span></span> </h2>
-            <div class="picture">
-              <img class="img-fluid rounded" src="images/cover.jpg" >
-            </div>
-          </div>
-        </div>
+        </div>j
       </div>
     </div>
 
