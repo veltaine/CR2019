@@ -48,24 +48,28 @@
 /* carousel elements */
 .d-block {
   height: 400px;
-  width: 300px;
+  width: 100px;
   overflow: visible;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10%;
   max-height: auto;
-  max-width: auto;
+  max-width: 800px;
   min-width: auto;
   min-height: auto;
   margin-top: 100px;
+}
+
+.restoname {
+  font-size: 70px;
 }
 
 /* resizing for different screens, keeps the dimensions still intact */
 @media only screen and (min-width: 10px) and (max-width: 901px) {
   .d-block {
     height: 400px;
-    width: 400px;
+    width: 100px;
     overflow: visible;
     display: block;
     margin-left: auto;
@@ -78,22 +82,27 @@
     margin-top: 150px;
   }
 }
-
-.carousel-item h5{
-  font-family: 'Bangers', 'sans-serif';
-}
 .carousel-desc {
-    position: absolute;
+    position: relative;
     left: auto;
     right: auto;
-    color: white;
+    top: -50px;
+    color: #fff;
+    font-family: 'Bangers', 'sans-serif';
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #000000;
 }
 .body {
     font-family: 'Proza Libre', sans-serif;
 }
 
+.desc {
+  text-align: left;
+}
+
 .bold {
   font-weight:bold;
+  text-align: left;
 }
 
 .header .logo {

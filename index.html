@@ -32,6 +32,17 @@ function scrlsts() {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+
+<style>
+  /* Set the size of the div element that contains the map */
+#map {
+ height: 400px;  /* The height is 400 pixels */
+ width: 100%;  /* The width is the width of the web page */
+}
+</style>
+<!-- end of google map style code -->
+
 </head>
 
 <header>
@@ -39,8 +50,8 @@ function scrlsts() {
 
 
 <nav class="navbar navbar-expand-md bg-warning navbar-warning fixed-top">
-  <a class="navbar-brand"><h2 style="text-align:center">China River</h2></a>
-  <span class="navbar-text"><h2 style="text-align:center">Call us for takeout today! <br>(978) 921-1184</h2></span>
+  <a class="navbar-brand"><h2 class="restoname" style="text-align:center">China River</h2></a>
+  <span class="navbar-text"><h2 style="text-align:center">Call today! <br>(978)921-1184</h2></span>
 
   <button class="navbar-toggler btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> ↓ click here for quick navigation ↓
     <span class="navbar-toggler-icon"></span>
@@ -118,49 +129,49 @@ function scrlsts() {
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="images/gauchick.jpg" alt="First slide">
-          <div class="carousel caption d-md block">
+          <div class="carousel-caption  d-md block">
             <h5 class="carousel-desc">General Gau's Chicken</h5>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/c9.jpg" alt="Second slide">
-          <div class="carousel caption d-md block">
+          <div class="carousel-caption d-md block">
             <h5 class="carousel-desc">C9 - Pepper Steak, Wings, Boneless Spareribs, Pork Fried Rice</h5>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/combo-plate.jpg" alt="Third slide">
-          <div class="carousel caption d-md block">
+          <div class="carousel-caption d-md block">
             <h5 class="carousel-desc">C5 - Chicken Chow Mein, Wings, Pork Strips, Pork Fried Rice</h5>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/hfr.jpg" alt="Fourth slide">
-          <div class="carousel caption d-md block">
+          <div class="carousel-caption d-md block">
             <h5 class="carousel-desc">China River House Rice</h5>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/bfbroc.jpg" alt="Fifth slide">
-          <div class="carousel caption d-md block">
+          <div class="carousel-caption d-md block">
             <h5 class="carousel-desc">Beef and Broccoli</h5>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/chicken-dish.jpg" alt="Sixth slide">
-          <div class="carousel caption d-md block">
+          <div class="carousel-caption d-md block">
             <h5 class="carousel-desc">Moo Goo Gai Pan</h5>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/wings.jpg" alt="Seventh slide">
-          <div class="carousel caption d-md block">
+          <div class="carousel-caption d-md block">
             <h5 class="carousel-desc">Chicken Wings</h5>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/kpchick.jpg" alt="Eighth slide">
-          <div class="carousel caption d-md block">
+          <div class="carousel-caption d-md block">
             <h5 class="carousel-desc">Szechuan Spiced (Kung Pao) Chicken</h5>
           </div>
         </div>
@@ -220,7 +231,7 @@ function scrlsts() {
 
             <h2><span></span> </h2>
             <div class="picture">
-              <img class="img-fluid rounded" src="images/gauchick.jpg" >
+              <img class="img-fluid rounded" src="images/cover.jpg" >
             </div>
           </div>
         </div>
@@ -787,6 +798,26 @@ function scrlsts() {
 
                                       </section>
 
+
+
+
+          <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+          		<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                  var setting = {"height":512,"width":803,"zoom":17,"queryString":"295 Rantoul Street, Beverly, MA, USA","place_id":"EiQyOTUgUmFudG91bCBTdHJlZXQsIEJldmVybHksIE1BLCBVU0EiMRIvChQKEgl7KeOLnxbjiRHzbrMZp_7l9hCnAioUChIJk0ay458W44kRgAj44bWbikE","satellite":false,"centerCoord":[42.55103271457765,-70.88299310000002],"cid":"0x118bd8221b31bfa2","cityUrl":"/us/ma/beverly-35380","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"62237"};
+                  var d = document;
+                  var s = d.createElement('script');
+                  s.src = 'https://1map.com/js/script-for-user.js?embed_id=62237';
+                  s.async = true;
+                  s.onload = function (e) {
+                    window.OneMap.initMap(setting)
+                  };
+                  var to = d.getElementsByTagName('script')[0];
+                  to.parentNode.insertBefore(s, to);
+                })();</script><a href="https://1map.com/map-embed?embed_id=62237">1map.com</a></div>
+
+
+
+  <!-- End of Google Map Test -->
 
 
     </body>
